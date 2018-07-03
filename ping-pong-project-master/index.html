@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+     <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+     <script src="js/jquery-3.3.1.slim.js"></script>
+     <script src="js/scripts.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+      PING PONG
+      </div>
+    </div>
+
+
+    <div class="rules">
+      <h1>LET'S PLAY</h1>
+      <p id=rules><b>Rules:</b></p>
+      <ol>
+        <li>Numbers divisible by 5 become 'ping'</li>
+        <li>Numbers divisible by 10 become 'pong'</li>
+        <li>Numbers divisible by 15 become 'pingpong'</li>
+      </ol>
+    </div>
+
+    <form id=pingpong>
+      <div class="form-group">
+        <label for="number">Please input a number:</label>
+        <input id=pingorpong type="text">
+      </div>
+
+        <button type="submit">PING PONG!</button>
+
+    </form>
+
+    <div class="result">
+      <p><span id=numberList></span></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Address Book</title>
+  </head>
+  <body>
+    <form id="names">
+      <div class="form-group">
+        <label for="firstName">Drag First Name</label>
+        <input type="name" class="form-control" id="firstName" aria-describedby="emailHelp" placeholder="Enter first name">
+        <small id="firstName" class="form-text text-muted">What is it girl</small>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Drag Last Name</label>
+        <input type="lastName" class="form-control" id="lastName" placeholder="Enter last name">
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="age" class="form-control" id="age" placeholder="age">
+        <small id="age" class="form-text text-muted">How many tree rings ya got</small>
+      </div>
+
+      <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+      <h2>Contacts:</h2>
+      <ul id="contacts"> </ul>
+
+      <div class="col-md-6">
+        <div id="show-contact">
+          <p>First name: <span class="first-name"></span></p>
+          <p>Last name: <span class="last-name"></span></p>
+        </div>
+      </div>
+  </body>
+</html>
